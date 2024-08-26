@@ -50,7 +50,7 @@ yawn_run_status = False
 
 
 #Load the Face Landmark File and load algorithm 
-path = 'shape_predictor_68_face_landmarks.dat'
+path = 'test/shape_predictor_68_face_landmarks.dat'
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(path)
 
